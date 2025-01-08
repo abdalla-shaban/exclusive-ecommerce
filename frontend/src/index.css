@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.heading-1 {
+  font-size: 110px;
+}
+
+.heading-2 {
+  font-size: 90px;
+}
+
+.heading-3 {
+  font-size: 64px;
+}
+
+.heading-4 {
+  font-size: 54px;
+}
+
+.heading-5 {
+  font-size: 48px;
+}
+
+.heading-6 {
+  font-size: 36px;
+}
+
+.heading-7 {
+  font-size: 32px;
+}
+
+.heading-8 {
+  font-size: 24px;
+}
+
+.heading-9 {
+  font-size: 20px;
+}
+
+.title-1 {
+  font-size: 24px;
+}
+
+.title-2 {
+  font-size: 20px;
+}
+
+.title-3 {
+  font-size: 16px;
+}
+
+.title-4 {
+  font-size: 14px;
+}
+
+.title-5 {
+  font-size: 12px;
+}

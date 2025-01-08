@@ -1,8 +1,13 @@
+import Footer from "./components/Footer";
+import TopHeader from "./components/TopHeader";
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <main className="flex flex-col min-h-screen">
+      <TopHeader />
+      <div className="flex-1"></div>
+      <Footer />
+    </main>
   );
 }
 
