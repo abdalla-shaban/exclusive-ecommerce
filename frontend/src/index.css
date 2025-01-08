@@ -58,3 +58,20 @@
 .title-5 {
   font-size: 12px;
 }
+
+
+
+.active {
+  position: relative;
+  font-weight: bold;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  bottom: -30px;
+  background-color: black;
+}
