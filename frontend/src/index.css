@@ -75,3 +75,27 @@
   bottom: -30px;
   background-color: black;
 }
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+.slick-slider,
+.slick-list,
+.slick-track,
+.slick-initialized .slick-slide,
+.slick-initialized .slick-slide>div,
+.slick-initialized .slick-slide>div>div {
+  display: flex !important;
+  flex: 1;
+}
+
+.slick-slide {
+  float: none !important;
+}
+
+.slick-initialized .slick-slide,
+.slick-initialized .slick-slide>div>div {
+  flex-direction: column !important;
+}
