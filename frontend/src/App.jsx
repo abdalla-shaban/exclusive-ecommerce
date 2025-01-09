@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Categories from "./components/Categories.jsx";
 import BestSelling from "./components/BestSelling.jsx";
 import CatAd from "./components/CatAd.jsx";
+import ExploreProducts from "./components/ExploreProducts.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Categories />
         <BestSelling />
         <CatAd />
+        <ExploreProducts />
       </div>
       <Footer />
     </main>
