@@ -6,6 +6,7 @@ import TopHeader from "./components/TopHeader";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Categories from "./components/Categories.jsx";
+import BestSelling from "./components/BestSelling.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Hero />
         <TodayDeals />
         <Categories />
+        <BestSelling />
       </div>
       <Footer />
     </main>
