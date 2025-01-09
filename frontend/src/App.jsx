@@ -5,6 +5,7 @@ import TodayDeals from "./components/TodayDeals.jsx";
 import TopHeader from "./components/TopHeader";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Categories from "./components/Categories.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div className="flex-1">
         <Hero />
         <TodayDeals />
+        <Categories />
       </div>
       <Footer />
     </main>
