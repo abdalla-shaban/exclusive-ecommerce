@@ -10,6 +10,7 @@ import BestSelling from "./components/BestSelling.jsx";
 import CatAd from "./components/CatAd.jsx";
 import ExploreProducts from "./components/ExploreProducts.jsx";
 import Collections from "./components/Collections.jsx";
+import Features from "./components/Features.jsx";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <CatAd />
         <ExploreProducts />
         <Collections />
+        <Features />
       </div>
       <Footer />
     </main>
